@@ -1,0 +1,50 @@
+﻿<Window x:Class="FUMiniHotelManagement.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FUMiniHotelManagement"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="600" Width="1100">
+    <Window.Resources>
+        <ResourceDictionary Source="StyleResource.xaml"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition />
+
+        </Grid.ColumnDefinitions>
+
+        <StackPanel x:Name="NavBarContainer" Grid.Column="0"  Background="LightSeaGreen">
+            <StackPanel  Orientation="Vertical" HorizontalAlignment="Center" Width="150px">
+                <Button Style="{StaticResource btnStyle2}" x:Name="btnDashboard" Margin="0 20"  Click="btnDashboard_Click">
+                    <TextBlock Text="Dashboard" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+                <Button Style="{StaticResource btnStyle2}" x:Name="btnBooking" Margin="0 20"  Click="btnBooking_Click">
+                    <TextBlock Text="Booking Management" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+                <Button Style="{StaticResource btnStyle2}" x:Name="btnCustomer" Margin="0 20"  Click="btnCustomer_Click">
+                    <TextBlock Text="Customer Management" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+                <Button Style="{StaticResource btnStyle2}" Width="100px" x:Name="btnRoom" Margin="0 20" Height="40" Click="btnRoom_Click">
+                    <TextBlock Text="Room Management" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+                <Button Style="{StaticResource btnStyle2}" Width="100px" x:Name="btnRoomType" Margin="0 20" Height="40" Click="btnRoomType_Click">
+                    <TextBlock Text="Room Type Management" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+                <Button Style="{StaticResource btnStyle2}" Width="100px" x:Name="btnLogout" Margin="0 20" Height="40" Click="btnLogout_Click">
+                    <TextBlock  Text="Logout" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+                <Button Style="{StaticResource btnStyle2}" Width="100px" x:Name="btnQuit" Margin="0 20" Height="40" Click="btnQuit_Click">
+                    <TextBlock  Text="Quit" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+
+
+        <Frame Padding="10 0 10 10" Background="LightCyan" Grid.Column="1" x:Name="AdminFrame" NavigationUIVisibility="Hidden"/>
+
+    </Grid>
+</Window>

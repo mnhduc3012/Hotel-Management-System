@@ -1,0 +1,63 @@
+﻿<Page x:Class="FUMiniHotelManagement.ListRoom"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FUMiniHotelManagement"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ListRoom" Loaded="Page_Loaded">
+
+    <Page.Resources>
+        <ResourceDictionary Source="StyleResource.xaml"/>
+    </Page.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <Label Content="From: " VerticalAlignment="Center" Foreground="LightSeaGreen" FontWeight="DemiBold"/>
+                <DatePicker x:Name="dpkFrom" Height="30" Width="100" VerticalContentAlignment="Center"></DatePicker>
+                <Label Content="To: " VerticalAlignment="Center" Foreground="LightSeaGreen" FontWeight="DemiBold"/>
+                <DatePicker x:Name="dpkTo" Height="30" Width="100" VerticalContentAlignment="Center"></DatePicker>
+                <Label Content="Room Type: " VerticalAlignment="Center" Foreground="LightSeaGreen" FontWeight="DemiBold"/>
+                <ComboBox x:Name="cbxRoomType" Height="30" Width="100" VerticalContentAlignment="Center"></ComboBox>
+                
+                
+                <Button Style="{StaticResource btnStyle1}" x:Name="btnFilter"  Content="Find available room" Height="30" Width="150" Margin="20 0 0 0" Click="btnFilter_Click"/>
+            </StackPanel>
+
+            <Button HorizontalAlignment="Right" Grid.Column="1" Style="{StaticResource btnStyle1}" x:Name="btnBook"  Content="Book" Height="30" Width="100" Margin="20 0 20 0" Click="btnBook_Click"/>
+
+        </Grid>
+
+        <DataGrid Grid.Column="0" Grid.Row="1" x:Name="dgvDisplay" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding Rooms}" >
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Header="Select" Binding="{Binding IsSelected}"/>
+                <DataGridTextColumn Width="Auto" Header="Number" Binding="{Binding RoomNumber}"/>
+                <DataGridTextColumn Width="Auto" Header="Description" Binding="{Binding RoomDetailDescription}"/>
+                <DataGridTextColumn Width="Auto" Header="MaxCapacity" Binding="{Binding RoomMaxCapacity}"/>
+                <DataGridTextColumn Width="Auto" Header="PricePerDay" Binding="{Binding RoomPricePerDay}"/>
+                <DataGridTextColumn Width="Auto" Header="RoomType" Binding="{Binding RoomType.RoomTypeName}"/>
+                <DataGridTextColumn Width="Auto" Header="RoomTypeDescription" Binding="{Binding RoomType.TypeDescription}"/>
+                <DataGridTextColumn Width="Auto" Header="RoomTypeNote" Binding="{Binding RoomType.TypeNote}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+    </Grid>
+</Page>

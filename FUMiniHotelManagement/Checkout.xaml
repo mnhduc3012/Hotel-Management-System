@@ -1,0 +1,52 @@
+﻿<Window x:Class="FUMiniHotelManagement.Checkout"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FUMiniHotelManagement"
+        mc:Ignorable="d"
+        Title="Checkout" Height="Auto" Width="600" ResizeMode="CanMinimize" Background="LightCyan" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ResourceDictionary Source="StyleResource.xaml"/>
+    </Window.Resources>
+    <ScrollViewer>
+        <StackPanel>
+            <TextBlock Text="Choose start date and end date for each room:" Foreground="LightSeaGreen" FontWeight="Bold" Margin="10" FontSize="18"/>
+            <ItemsControl x:Name="RoomItemsControl">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+
+                        <StackPanel Orientation="Vertical" Margin="5">
+                            <TextBlock Text="-------------------------------------------" FontSize="15" FontWeight="Bold" Foreground="LightSeaGreen" Margin="7" />
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="RoomNumber:" FontSize="15" FontWeight="Bold" Foreground="LightSeaGreen" Margin="7" />
+                                <TextBlock Text="{Binding RoomNumber}" FontSize="15" FontWeight="Bold" Foreground="LightSeaGreen" Margin="7" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="RoomMaxCapacity:" FontSize="15" FontWeight="Bold" Foreground="LightSeaGreen" Margin="7" />
+                                <TextBlock Text="{Binding RoomMaxCapacity}" FontSize="15" FontWeight="Bold" Foreground="LightSeaGreen" Margin="7" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="RoomPricePerDay:" FontSize="15" FontWeight="Bold" Foreground="LightSeaGreen" Margin="7" />
+                                <TextBlock Text="{Binding RoomPricePerDay}" FontSize="15" FontWeight="Bold" Foreground="LightSeaGreen" Margin="7" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="RoomTypeName:" FontSize="15" FontWeight="Bold" Foreground="LightSeaGreen" Margin="7" />
+                                <TextBlock Text="{Binding RoomType.RoomTypeName}" FontSize="15" FontWeight="Bold" Foreground="LightSeaGreen" Margin="7"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                                <TextBlock Text="Start Date:" FontSize="15" FontWeight="Bold" Foreground="LightSeaGreen" Margin="7"/>
+                                <DatePicker  Width="100" SelectedDate="{Binding StartDate, Mode=OneWayToSource}" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                                <TextBlock Text="End Date:" FontSize="15" FontWeight="Bold" Foreground="LightSeaGreen" Margin="7"/>
+                                <DatePicker  Width="100" SelectedDate="{Binding EndDate, Mode=OneWayToSource}" />
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            <Button Style="{StaticResource btnStyle1}" Content="Confirm Booking" x:Name="btnConfirm" Click="btnConfirm_Click" Margin="10" />
+        </StackPanel>
+    </ScrollViewer>
+</Window>

@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\CSharp\\Assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30D54B9E-FD97-4A0E-8786-6D5C4BC831E7}|FUMiniHotelManagement\\FUMiniHotelManagement.csproj|c:\\users\\admin\\documents\\csharp\\assignment2\\fuminihotelmanagement\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D54B9E-FD97-4A0E-8786-6D5C4BC831E7}|FUMiniHotelManagement\\FUMiniHotelManagement.csproj|solutionrelative:fuminihotelmanagement\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D54B9E-FD97-4A0E-8786-6D5C4BC831E7}|FUMiniHotelManagement\\FUMiniHotelManagement.csproj|c:\\users\\admin\\documents\\csharp\\assignment2\\fuminihotelmanagement\\checkout.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{30D54B9E-FD97-4A0E-8786-6D5C4BC831E7}|FUMiniHotelManagement\\FUMiniHotelManagement.csproj|solutionrelative:fuminihotelmanagement\\checkout.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D54B9E-FD97-4A0E-8786-6D5C4BC831E7}|FUMiniHotelManagement\\FUMiniHotelManagement.csproj|c:\\users\\admin\\documents\\csharp\\assignment2\\fuminihotelmanagement\\checkout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30D54B9E-FD97-4A0E-8786-6D5C4BC831E7}|FUMiniHotelManagement\\FUMiniHotelManagement.csproj|solutionrelative:fuminihotelmanagement\\checkout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D54B9E-FD97-4A0E-8786-6D5C4BC831E7}|FUMiniHotelManagement\\FUMiniHotelManagement.csproj|c:\\users\\admin\\documents\\csharp\\assignment2\\fuminihotelmanagement\\listroom.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{30D54B9E-FD97-4A0E-8786-6D5C4BC831E7}|FUMiniHotelManagement\\FUMiniHotelManagement.csproj|solutionrelative:fuminihotelmanagement\\listroom.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D54B9E-FD97-4A0E-8786-6D5C4BC831E7}|FUMiniHotelManagement\\FUMiniHotelManagement.csproj|c:\\users\\admin\\documents\\csharp\\assignment2\\fuminihotelmanagement\\listroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30D54B9E-FD97-4A0E-8786-6D5C4BC831E7}|FUMiniHotelManagement\\FUMiniHotelManagement.csproj|solutionrelative:fuminihotelmanagement\\listroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1451,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\Assignment2\\FUMiniHotelManagement\\Email.cs",
+              "RelativeDocumentMoniker": "FUMiniHotelManagement\\Email.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\Assignment2\\FUMiniHotelManagement\\Email.cs",
+              "RelativeToolTip": "FUMiniHotelManagement\\Email.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T02:52:14.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Checkout.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\Assignment2\\FUMiniHotelManagement\\Checkout.xaml.cs",
+              "RelativeDocumentMoniker": "FUMiniHotelManagement\\Checkout.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\Assignment2\\FUMiniHotelManagement\\Checkout.xaml.cs",
+              "RelativeToolTip": "FUMiniHotelManagement\\Checkout.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:22:40.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Checkout.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\Assignment2\\FUMiniHotelManagement\\Checkout.xaml",
+              "RelativeDocumentMoniker": "FUMiniHotelManagement\\Checkout.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\Assignment2\\FUMiniHotelManagement\\Checkout.xaml",
+              "RelativeToolTip": "FUMiniHotelManagement\\Checkout.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-06T01:22:31.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListRoom.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\Assignment2\\FUMiniHotelManagement\\ListRoom.xaml.cs",
+              "RelativeDocumentMoniker": "FUMiniHotelManagement\\ListRoom.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\Assignment2\\FUMiniHotelManagement\\ListRoom.xaml.cs",
+              "RelativeToolTip": "FUMiniHotelManagement\\ListRoom.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:20:49.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListRoom.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\Assignment2\\FUMiniHotelManagement\\ListRoom.xaml",
+              "RelativeDocumentMoniker": "FUMiniHotelManagement\\ListRoom.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\Assignment2\\FUMiniHotelManagement\\ListRoom.xaml",
+              "RelativeToolTip": "FUMiniHotelManagement\\ListRoom.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-06T01:20:45.598Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
